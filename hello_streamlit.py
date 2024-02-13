@@ -35,57 +35,6 @@ if st.button("Introduce me!"):
 
 
 
-# Let's also add a widget for favorite seasons. Rather than open-ended text, we will provide a list of options from a drop-down menu.
-
-
-# In addition to a text box, we can obtain information for dates, from select boxes, or sliders.  with st.date_input
-
-
-# The final piece of our app will be a slider that accepts a value from 1 to 10. This will be the user's excitement for learning streamlit!
-
-# Wrap all input within our button. To finalize our app, we will add print statements for each of our inputs, and wrap them in a single conditional button.
-
-
-
-
-
-st.header("Display text and examples are below")
-
-
-# Explore title, headers, and subheaders
-st.title("This is a Title")
-st.header("This is a Header")
-st.subheader("This is a Subheader")
-
-
-# Text and Markdown are created with the below commands
-
-
-# Basic text
-st.write("This is standard text")
-# Markdown-example shows bold and italics
-st.markdown("This is markdown showing **bold** and *italics*")
-
-
-
-# Dataframes: Streamlit can display Pandas dataframes.
-
-
-# Create a simple dataframe
-import pandas as pd
-df = pd.DataFrame({'A':[1,2,3],"B":[5,6,7]})
-# Display dataframe
-st.dataframe(df)
-
-
-
-# Interactive Features: Our goal will be to allow users to input their names, and our app will then provide a personalized introduction code is above
-
-
-
-
-
-
 
 
 
